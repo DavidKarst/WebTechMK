@@ -1,0 +1,39 @@
+.bodybody{
+   /*  background-image: url(coffee.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: monospace;  
+}
+
+/* Überschrift */
+.headerh1{
+    background-color: rgba(255, 255, 225, 0.8);
+    font-size: 40px;
+    /* opacity: 0.8; */
+    text-align: center;
+}
+
+/* Container der einzelnen Events */
+.events{
+    background-color: rgba(255, 255, 255, 0.8);
+    /* opacity: 0.8; */
+    padding: 12px;
+    margin: 25px;
+    font-size: 20px;
+}
+
+/* Anmelde-Info */
+#ev_info{
+    text-align: center;
+    color:cornsilk;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 25px;
+    /* opacity: 0.7; */
+    font-size: 18px;
+}
+
+/* Preis-Info*/
+.ev_preis{
+    font-size: 15px;
+}

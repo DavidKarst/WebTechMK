@@ -1,0 +1,63 @@
+
+/* Überschrift*/ 
+#res_header{
+    text-align: center;
+    background-color: rgba(255,248,220, 0.8);
+    font-size: 40px;
+    /* opacity: 0.8; */
+}
+
+.bodybody{    
+    text-align: center;
+    /* background-image: url("coffee.jpg"); */
+    /*  background-size: cover; */
+    background-attachment: fixed; 
+    font-family: monospace;
+}
+ 
+
+/* 3 Haupt-Container */
+.res_box{
+    width: 62.5%;
+    height: 35rem;
+    min-width: 22rem;
+    float: left;
+    padding: 20px;
+    width: 28%;
+    text-align: center;
+    background-color: rgba(255,248,220, 0.75);
+    /* opacity: 0.75; */
+    margin: 10px;   
+}
+
+/* Text priv. Veranstaltungen */
+.res_text{
+    text-align: justify;
+    color: black;
+    font-size: 20px;       
+}
+
+/* Überschriften d. Container  */
+.res_h{
+    font-size: 26px;
+}
+
+/* Container für Einträge des Formulars für online Reservierung */
+.res_inputs{
+    margin: 25px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+/* Label + Input Felder des Formulars */
+.fields{
+    float: right;
+}
+
+/* Zurück-Link */
+#res_back{
+    text-align: left;
+    color: black;
+}

@@ -1,0 +1,186 @@
+/* CSS für die Navigationsleiste
+   Arbeitet mit JavaSkript zusammen um die Buttons umzusetzten
+*/
+
+/* Hintergrund */
+body {    
+    height: 100%;
+    margin: 0;
+    background-image: url("../image/HintergrundKaffee.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 100%;   
+}
+
+/*Wird gesetzt für Styleabfrage im Javascript*/
+body:before {
+    content: "moblie";
+    display: none;
+	visibility: hidden;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*Ueberschrift*/
+#headline{
+    font-size: 3.6em;
+    margin: auto;
+    text-align: center;
+}
+
+/*Navigationsleiste bleibt immer oben 
+ (die Klasse sticky wird dem nav-Tag durch JS zugeordnet)*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*Hintergrund muss neu gesetzt werden*/
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+/*Eigenschaften der ganzen Liste*/
+    nav ul {
+    list-style-type: none;    /*standard Styleeigenschaften löschen*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    }
+
+    /*Eigenschaften der Listenelemente*/
+    nav ul li {
+        float: none;
+        text-align: center;
+        display:none; /* Inhalt der Liste zu Beginn  verstecken*/
+    }
+
+    /*Erstes Element der Liste immer Anzeigen*/
+    #firstElem{
+        display:block;
+    }
+
+    /*Eigenschaften der Links*/
+    nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    }
+
+    /*Farbliche markierung durch hover*/
+    nav ul li a:hover, .dropbtn:hover {        
+        background-color: rgb(0, 0, 0, 0.7);
+        color:white;
+    }
+
+
+
+/*Eigenschaften SpeisekartenButton*/
+    /*Speisekarten Dropdown zu Beginn verstecken*/
+    #dropdown-content{
+        display: none;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
+    }
+    /*SpeisekartenButton visuell anpassen*/
+    .dropbtn { 
+        width:100%;   
+        font-size: 16px;
+        border: none;
+        outline: none;    
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    /* bei hover ueber SpeisekartenButton wird der SpeisekartenDropdown angezeigt*/
+    .dropdownAkt:hover #dropdown-content {
+        display: block;    
+    }
+
+
+/*Eigenschaften der Suchleiste*/
+    /*Aussere Huelle*/
+    form#SuchElement{
+        float: none;
+        height:29px;        
+        width: 170px;
+        padding: 14px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /*Eine Umrandung erstellen*/
+    form#SuchElement #SuchElementRand{
+        padding: 0;
+        margin: 0;
+        height:100%;
+        width: 100%;
+        border: solid 1px;
+    }    
+    /*Textfeld der Suchleiste*/
+    form#SuchElement #Suchleiste{
+        border: none;
+        width: 141px;
+        height: 100%;
+        float:left;
+        padding: 0;
+    }
+    /*Button der Suchleiste mit Bild von Lupe*/
+    form #SuchButton{    
+        border: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        width: 29px;
+        height: 100%;
+		background-color: white;        
+    }
+    
+
+
+/*Eigenschaften des MenueButtons*/
+    #MenueButton, #MenueButton input{    
+        float: right;
+        border: none;
+        outline: none;    
+        padding: 0;
+        margin: 0;
+        width: 57px;
+        height: 57px;
+        background-color: inherit;
+    }
+
+
+/*Breakpoint fuer mobile-Ansicht*/
+    @media screen and (min-width: 1450px) { 
+        /*Wird gesetzt für Styleabfrage im Javascript*/
+        body:before {
+            content: "desktop";
+        }
+        /*Listelemente immer und nebeneinander anzeigen*/
+        nav ul li {
+            float: left;
+            display: block;
+        }
+        /*Speisekarten Dropdown absolute Position geben,
+        damit es an der richtigen Stelle vertikal aufklappt*/
+        #dropdown-content {
+            position: absolute;
+            width: 147.23px;     
+        }
+        /*Suchle und Menuebutton an den rechten Rand*/
+        #firstElem{
+            float: right;
+        }
+        /*MenueButton nicht mehr anzeigen*/
+        #MenueButton{
+            display: none;
+        }
+
+    }

@@ -1,0 +1,52 @@
+
+/*####### Text LandingPage ############# */
+
+.begrüßungText{   
+    text-align: center;
+    font-size: x-large;  
+
+    background: rgba(255, 255, 255, 0.8);
+    background-size: contain;
+    color: black;
+    position: static;
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+    
+    padding: 25px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: fit-content;
+}
+
+/* WillkomenTextbox */
+.Willkommen{    
+    font-weight: 800;
+    font-size: larger;
+}
+
+#about
+{
+    text-align: center;
+}
+
+.Rahmen{
+    text-align: center;
+    font-size: x-large;  
+
+    background: rgba(255, 255, 255, 0.8);
+    background-size: contain;
+    color: black;
+    position: static;
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+    
+    padding: 25px;
+    /* margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%; */
+    margin: 50px auto;
+    width: fit-content;
+}

@@ -1,0 +1,36 @@
+
+
+h1
+{
+text-align: center;
+   
+}
+
+figure
+
+{
+
+    margin: auto;
+    width: 68%;
+    clear: both;
+    
+
+    
+}
+
+img
+{
+    border-radius: 1rem;
+    box-shadow:1px 1px 10px black;
+    
+}
+
+img:hover
+{
+    border-radius: 1rem;
+    box-shadow:1px 1px 10px black;
+    transition: transform 0.8s;
+
+    transform: scale(2.0,2.0)
+    
+}

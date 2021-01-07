@@ -1,0 +1,55 @@
+/* Leaflet Karte */
+#map {
+    height: 200px;
+    margin: 30px;
+    border-style: groove;
+    flex:1;
+    display: flex;  
+}
+
+/* Body*/
+#body_contact{
+    text-align: center;
+    font-family: monospace;
+    /* background-image: url(coffee.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 22rem;
+}
+
+/* Haupt-Überschriften*/
+.headerh1{
+    font-size: 40px;
+    background-color:burlywood;
+        /* opacity: 0.9; */
+}
+
+/* Überschrift Anschrift*/
+#sheader2{
+    font-size: 20px;
+}
+
+/* Öffenungszeiten und Anschrift */
+.con_text {  
+    font-size: 17px;  
+    background-color: white;
+    /* opacity: 0.8; */
+    margin: 30px;
+    padding: 15px;  
+}
+
+/* Bestellungen */
+.con_textb{
+    background-color: white;
+    margin: 30px;
+    padding: 15px; 
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+
+/* zurück-Link*/
+#back{
+    float: left;   
+    font-size: 16px;   
+}

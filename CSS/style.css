@@ -1,0 +1,66 @@
+
+
+.h1class
+{
+    text-align: center;
+   /*  widows: 800px; */
+    height: 40px;
+    background-color: rgba(202, 201, 201, 0.219);
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: normal;
+    border-radius: 1rem;
+}
+
+
+
+
+.pClass 
+{
+    font-size: 16px;
+    border-radius: 1rem;
+    background-color:unset;
+    margin: 20px;
+}
+.h2class
+{
+    height: 40px;
+    background-color: unset ;
+    text-decoration: none;
+    color: #261141;
+    border-radius: 1rem;
+    
+}
+
+/* *
+{
+ font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+} */
+/* main
+{   text-align: left;
+    text-align: justify;
+    margin: auto;
+    width: 70%;
+    clear: both;
+    
+} */
+
+
+/* a
+{ text-decoration: underline;
+  font-size: 22px;
+} */
+
+/* img
+{
+    border-radius: 1rem;
+    box-shadow:1px 1px 10px black;
+
+
+} */
+
+.liste
+{
+    text-align: left;
+}

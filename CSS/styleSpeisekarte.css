@@ -1,0 +1,64 @@
+/*Alles fett und Rahmen vereinen*/
+table{
+    font-weight: bold;
+    border-collapse: collapse;
+}
+/*Große Ueberschrift*/
+table caption{
+    font-size: 200%;
+}
+/*kleinerer Text unter Ueberschrift*/
+table caption p{
+    font-weight: normal;
+    font-size: 66%;
+    margin-top: 0px;   
+}
+/*Kopfelemente Linksbuendig und groeßer*/
+table thead{
+    text-align:left;
+    font-size: 120%;
+}
+
+/*Unterer Rahmen*/
+table thead tr{border-bottom:solid 3px;}
+table tr td{border-bottom:solid 1px;}
+
+/*Innere Ueberschrift ohne Absatz*/
+table tr td h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*innerer Text normal dick und ohne Absatz*/
+table tr td p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+/*Responsive Design*/
+table{
+    width: calc(100% - 1rem);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+@media (min-width: 64em){
+    .tabellen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    table{
+        width:61em;
+    }
+}
+
+/*Vegetarische gerichte gruen markiert*/
+.vegetarisch em{color:green;}
+
+/*Getraenketabelle formatieren*/
+table #getraenkespaltengruppe #nummer{width: 2rem;}
+table #getraenkespaltengruppe #inhalt{width: 6rem;}
+table #getraenkespaltengruppe .preis{width: 6rem;}
+
+/*Absatz unter Pasta Tabelle*/
+#Pastatabelle{margin-bottom:1rem;}
