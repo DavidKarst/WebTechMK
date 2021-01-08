@@ -1,7 +1,7 @@
 <link rel="stylesheet" href=../CSS/header.css>
 <link rel="stylesheet" href=../CSS/main.css>
 
-<header>
+<header class="headerheader">
     <!--Ueberschrift der Seite-->
     <h1 id="headline"> City Pizza - Restaurant und Lieferservice</h1>
 

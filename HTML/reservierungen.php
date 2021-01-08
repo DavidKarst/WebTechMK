@@ -17,7 +17,7 @@
         <div class="res_box">
             <h2 class="res_h"> Online Reservierung </h2>
 
-            <form name="mails" action="./res_action_page.php" method="POST">
+            <form name="mails" action="../php/res_action_page.php" method="POST">
                 <div class="res_inputs">
                     <label for="name"> Vor- und Nachname</label> <input class="fields" id="name" name="name" type="text" required></div>
                 <div class="res_inputs">
@@ -70,8 +70,8 @@
 
             </p>
         </div> 
-    </main>
-   <?php include './footer.php';?>
+    </main><!-- include '../php/res_action_page.php'; -->
+   <!-- include './footer.php'; -->
 </body>
 
 </html>

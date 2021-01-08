@@ -34,7 +34,7 @@
     </form>
     <?php
 
-    include '../Gaestebuch/SkriptGaestebuch.php';
+    include '../php/SkriptGaestebuch.php';
     /* if (isset($_POST['input_name']) || isset($_POST['input_betreff']) || isset($_POST['input_nachricht'])) {
 
 

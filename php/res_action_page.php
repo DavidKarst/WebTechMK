@@ -20,7 +20,7 @@
     mail($listener, $topic, $message, $txt);
 
     //Auf HTML website bleiben
-    header("Location: ./reservierungen.php");
+    header("Location: ../HTML/reservierungen.php");
     
     
 
